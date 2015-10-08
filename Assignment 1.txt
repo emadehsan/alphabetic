@@ -1,0 +1,10 @@
+In this assignment, students will create an interactive web app, with animations using only CSS3 and HTML5 to help kindergarten students
+learn the alphabets. The app should show the users alphabets and the words starting with them. Finally add a simple quiz where the kids
+ can choose words corresponding  to the alphabets from multiple options.
+
+The app will be a pure css3 2d solution with not more than 24 images, no JavaScript  and no flash.
+Use many animations and simple interactions to make the learning experience fun for the kids.
+
+For maximum marks use urdu alphabets.
+
+Students will upload their solution and description document both on LMS and GitHub.
