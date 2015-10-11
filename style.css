@@ -1,5 +1,53 @@
+
+/*Cloud Styling*/
+
+.cloud-container {
+    background: black;
+    height: 200px;
+    position: relative;
+}
+
+.cloud{
+	border:1px solid #000009;
+	background-color:#fffff0;
+	position:relative;
+	top:30%;
+	width:150px;
+	border-radius: 100px;
+	height:50px;
+    margin: auto;
+}
+.cloud:before{
+	border-bottom:none;
+	border:1px solid #000009;
+	background-color: #fffff0;
+	display: block;
+	left: 10%;
+	top: -97%;
+	content: "";
+	height: 70px;
+	width: 90px;
+	border-radius: 100px;
+	position: relative;
+    border-bottom: none;
+}
+.cloud:after{
+	background-color: #fffff0;
+	border: 1px solid #000009;
+	border-bottom:none;
+	content: "";
+	display: block;
+	left: 50%;
+	top: -210%;
+	width: 58px;
+	height: 50px;
+	border-radius: 100px;
+	position: relative;
+}
+/*cloud styling ends*/
 * {
     font-family: 'Montserrat';
+    /*border: 1px solid red;*/
 }
 img {
     margin: 10px auto;
@@ -65,4 +113,39 @@ a:hover {
 }
 .row div img {
     display: block;
+}
+/**
+|   Ref: Learned from CSS-tricks.com
+*/
+#egg {
+   display:block;
+   height: 178px;
+   width: 135px;
+   border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+   border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   margin: auto;
+   background: linear-gradient(to right, #fff0c3, #fff5c3);
+}
+#star {
+    display: block;
+	height: 0;
+	width: 0;
+    margin: auto;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #ffff00;
+	position: relative;
+    margin-bottom: 50px;
+}
+#star:after {
+	height: 0;
+	width: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid #ffff00;
+    position: absolute;
+	top: 30px;
+    margin-bottom: 50px;
+	content: "";
+	left: -50px;
 }
